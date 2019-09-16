@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/img_captured"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_image_blue_24dp" />
+
+    <Button
+        android:id="@+id/btn_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/mycolor"
+        android:text="Capture Image"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Image"
+        android:textSize="20sp"
+        android:background="@color/mycolor"
+        />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:text="Reset Image count"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/view_count"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Total Image Count is:"
+        android:textColor="#724400"
+        android:textColorHint="#E08C00"
+        android:textSize="30dp" />
+
+</LinearLayout>
